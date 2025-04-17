@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../assets/Fondo.jpg') no-repeat center center fixed;
+    color: #ffffff;
+}
+
+header {
+    background: #111;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #00ffc3;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+}
+
+body.index section {
+    max-width: 700px;
+    margin: 3rem;
+    text-align: left;
+}
+
+    body.index section p {
+        color: #ffffff;
+        font-weight: 500;
+        line-height: 1.6;
+        font-size: 1.05rem;
+    }
+
+body.seguridad section {
+    color: #ffffff;
+    font-weight: 500;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+}
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 3rem;
+    background: linear-gradient(90deg, #00ffc3, #0066ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #00ffc3;
+    border-bottom: 2px solid #00ffc3;
+    padding-bottom: 0.3rem;
+    margin-top: 2rem;
+}
+
+.detalle {
+    display: none;
+    font-style: italic;
+    color: #cccccc;
+}

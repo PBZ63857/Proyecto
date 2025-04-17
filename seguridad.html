@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Safe Play - Seguridad</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1><span class="titulo">Safe Play</span> 🎮🛡️</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="seguridad.html">Seguridad</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Vulnerabilidades y Ataques Relevantes</h2>
+
+            <div class="evento" onclick="toggleDetalle(this)">
+                <h3>2011 - Hackeo de PlayStation Network</h3>
+                <p class="detalle">
+                    Sony sufrió una intrusión que expuso los datos de más de 77 millones de cuentas de PSN. A raíz de este suceso el servicio estuvo caído 23 días. 
+                </p>
+            </div>
+            <div class="evento" onclick="toggleDetalle(this)">
+                <h3>2019 - Filtración de datos en la E3</h3>
+                <p class="detalle">
+                    Más de 2.000 registros personales de periodistas y creadores quedaron expuestos. La ESA pidió disculpas y reforzó su seguridad. 
+                </p>
+            </div>
+
+            <div class="evento" onclick="toggleDetalle(this)">
+                <h3>2020 - Filtración masiva de Nintendo</h3>
+                <p class="detalle">
+                    Se filtraron más de 2 TB de datos internos, incluyendo código fuente de consolas y herramientas de desarrollo.
+                </p>
+            </div>
+
+            <div class="evento" onclick="toggleDetalle(this)">
+                <h3>2024 - Ataque DDoS a Steam</h3>
+                <p class="detalle">
+                    Steam fue atacado en más de 100 servidores, Sin embargo, gracias a su compleja infraestructura, el impacto fue casi invisible para los usuarios. 
+                </p>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Safe Play</p>
+    </footer>
+</body>
+</html>
